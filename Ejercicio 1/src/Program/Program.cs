@@ -9,8 +9,20 @@ namespace SRP
         {
             Book book1 = new Book("Design Patterns","Erich Gamma & Others","001-034");
             Book book2 = new Book("Pro C#","Troelsen","001-035");
-            book1.ShelveBook("A","7");
-            book2.ShelveBook("B","3");
+            Sector A = new Sector();
+            Sector B = new Sector();
+            Estanteria siete = new Estanteria();
+            Estanteria cinco = new Estanteria();
+
+            siete.AddBook(book1);
+            cinco.AddBook(book2);
+            A.AddEstante(siete);
+            B.AddEstante(cinco);
+
+
+
+            
+            
 
         }
     }
