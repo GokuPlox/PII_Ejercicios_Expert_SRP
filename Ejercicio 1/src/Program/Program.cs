@@ -19,6 +19,8 @@ namespace SRP
             A.AddEstante(siete);
             B.AddEstante(cinco);
 
+            //Cree las clases de estanteria y sector para no poner cosas innecsarias ni sobrecargar las clases, a demas de hacerlas reutilizables. 
+
 
 
             
